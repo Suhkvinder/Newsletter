@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="420" viewBox="0 0 1360 420" role="img" aria-labelledby="title desc">
+  <title id="title">Data Science and AI masthead</title>
+  <desc id="desc">DNA helix dissolving into a scientific data network. Text reads Data Science and AI, Accelerating the journey from molecule to medicine, Patients first, Drug hunters empowered, Data and AI accelerating discovery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1360" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#001D27"/>
+      <stop offset="0.48" stop-color="#003B49"/>
+      <stop offset="1" stop-color="#001923"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(510 208) rotate(8) scale(410 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00BCFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00BCFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dna" x1="45" y1="45" x2="410" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8BE8F5"/>
+      <stop offset="0.55" stop-color="#00BCFF"/>
+      <stop offset="1" stop-color="#10857F"/>
+    </linearGradient>
+    <linearGradient id="fadeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#00BCFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#00BCFF" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="leftClip"><rect width="760" height="420"/></clipPath>
+  </defs>
+
+  <rect width="1360" height="420" fill="url(#bg)"/>
+  <rect width="1360" height="420" fill="url(#glow)"/>
+
+  <!-- Subtle scientific field -->
+  <g opacity="0.19" stroke="#26C6DA" fill="none">
+    <path d="M0 82 C180 20 380 55 590 16"/>
+    <path d="M0 354 C210 292 380 398 670 330"/>
+    <path d="M346 0 C380 94 708 115 740 261"/>
+    <circle cx="536" cy="76" r="52"/>
+    <circle cx="536" cy="76" r="34"/>
+  </g>
+
+  <!-- DNA helix -->
+  <g clip-path="url(#leftClip)" fill="none" stroke-linecap="round">
+    <path d="M74 20 C250 82 250 151 76 213 C-16 246 7 323 184 405" stroke="#0A879D" stroke-width="17" opacity="0.30" filter="url(#softGlow)"/>
+    <path d="M214 16 C33 83 34 151 213 215 C307 249 280 326 103 407" stroke="#0A879D" stroke-width="17" opacity="0.24" filter="url(#softGlow)"/>
+    <path d="M74 20 C250 82 250 151 76 213 C-16 246 7 323 184 405" stroke="url(#dna)" stroke-width="6"/>
+    <path d="M214 16 C33 83 34 151 213 215 C307 249 280 326 103 407" stroke="url(#dna)" stroke-width="6"/>
+    <g stroke="#74E4F3" stroke-width="2.5" opacity="0.83">
+      <path d="M100 31 L190 31"/><path d="M132 53 L159 53"/><path d="M166 76 L122 76"/>
+      <path d="M189 101 L98 101"/><path d="M198 127 L88 127"/><path d="M187 153 L99 153"/>
+      <path d="M157 179 L130 179"/><path d="M120 201 L170 201"/><path d="M81 222 L207 222"/>
+      <path d="M54 250 L235 250"/><path d="M57 281 L229 281"/><path d="M79 312 L207 312"/>
+      <path d="M111 344 L176 344"/><path d="M139 372 L150 372"/>
+    </g>
+    <g fill="#AFF4FC" opacity="0.82">
+      <circle cx="74" cy="20" r="4"/><circle cx="214" cy="16" r="4"/><circle cx="100" cy="31" r="3"/><circle cx="190" cy="31" r="3"/>
+      <circle cx="189" cy="101" r="3"/><circle cx="98" cy="101" r="3"/><circle cx="198" cy="127" r="3"/><circle cx="88" cy="127" r="3"/>
+      <circle cx="81" cy="222" r="3"/><circle cx="207" cy="222" r="3"/><circle cx="54" cy="250" r="3"/><circle cx="235" cy="250" r="3"/>
+      <circle cx="79" cy="312" r="3"/><circle cx="207" cy="312" r="3"/><circle cx="111" cy="344" r="3"/><circle cx="176" cy="344" r="3"/>
+    </g>
+  </g>
+
+  <!-- Dissolving particles -->
+  <g fill="#48D8EB" opacity="0.72">
+    <circle cx="270" cy="62" r="3"/><circle cx="298" cy="47" r="2"/><circle cx="312" cy="78" r="4"/><circle cx="341" cy="55" r="2"/>
+    <circle cx="284" cy="112" r="4"/><circle cx="324" cy="127" r="2"/><circle cx="359" cy="102" r="3"/><circle cx="392" cy="85" r="2"/>
+    <circle cx="277" cy="172" r="3"/><circle cx="311" cy="191" r="5"/><circle cx="348" cy="156" r="2"/><circle cx="381" cy="183" r="3"/>
+    <circle cx="264" cy="236" r="4"/><circle cx="304" cy="260" r="2"/><circle cx="339" cy="230" r="3"/><circle cx="372" cy="273" r="2"/>
+    <circle cx="289" cy="329" r="3"/><circle cx="327" cy="348" r="4"/><circle cx="366" cy="314" r="2"/><circle cx="402" cy="339" r="3"/>
+  </g>
+
+  <!-- AI constellation -->
+  <g clip-path="url(#leftClip)" stroke="#37CFE4" stroke-width="1.4" opacity="0.63">
+    <path d="M316 128 L404 74 L486 114 L570 63 L650 138 L603 214 L684 266 L617 345 L514 319 L436 369 L361 309 L406 230 Z" fill="#003B49" fill-opacity="0.16"/>
+    <path d="M316 128 L486 114 L406 230 L603 214 L514 319 L684 266" fill="none"/>
+    <path d="M404 74 L406 230 L570 63 L603 214 L436 369" fill="none"/>
+    <path d="M361 309 L514 319 L617 345 L603 214 L650 138" fill="none"/>
+    <path d="M316 128 L361 309 M486 114 L650 138 M406 230 L514 319" fill="none"/>
+  </g>
+  <g fill="#8EEBFA" filter="url(#tinyGlow)">
+    <circle cx="316" cy="128" r="4"/><circle cx="404" cy="74" r="4"/><circle cx="486" cy="114" r="5"/>
+    <circle cx="570" cy="63" r="4"/><circle cx="650" cy="138" r="5"/><circle cx="603" cy="214" r="6"/>
+    <circle cx="684" cy="266" r="4"/><circle cx="617" cy="345" r="5"/><circle cx="514" cy="319" r="5"/>
+    <circle cx="436" cy="369" r="4"/><circle cx="361" cy="309" r="5"/><circle cx="406" cy="230" r="6"/>
+  </g>
+
+  <!-- Protein ribbon motif -->
+  <g transform="translate(226 290)" opacity="0.55" fill="none" stroke="#47CFE0" stroke-width="3">
+    <path d="M0 53 C14 4 48 8 52 38 C57 70 23 83 24 111 C26 137 72 135 84 99 C95 66 57 55 70 23 C83 -7 128 5 126 42 C124 77 94 94 111 126"/>
+    <path d="M11 65 C34 48 49 57 49 76 C48 97 22 100 24 119" opacity="0.6"/>
+  </g>
+
+  <!-- Quiet divider between visual and copy -->
+  <rect x="736" y="50" width="1" height="320" fill="#56D7E8" opacity="0.22"/>
+
+  <!-- Copy -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="786" y="112" fill="#FFFFFF" font-size="55" font-weight="700" letter-spacing="1.2">DATA SCIENCE &amp; AI</text>
+    <text x="788" y="163" fill="#58D5E7" font-size="29" font-style="italic">Accelerating the journey</text>
+    <text x="788" y="199" fill="#58D5E7" font-size="29" font-style="italic">from molecule to medicine</text>
+    <rect x="788" y="225" width="410" height="3" rx="1.5" fill="url(#fadeLine)"/>
+    <text x="788" y="273" fill="#FFFFFF" font-size="24" font-weight="600">Patients first.</text>
+    <text x="788" y="310" fill="#FFFFFF" font-size="24">Drug hunters empowered.</text>
+    <text x="788" y="347" fill="#FFFFFF" font-size="24">Data and <tspan fill="#00BCFF" font-weight="700">AI</tspan> accelerating discovery.</text>
+  </g>
+
+  <!-- Subtle, reduced star point -->
+  <g transform="translate(1300 202)" opacity="0.48" filter="url(#tinyGlow)">
+    <circle r="4" fill="#C9FAFF"/>
+    <path d="M-44 0H44 M0-44V44 M-28-28L28 28 M28-28L-28 28" stroke="#65D9EA" stroke-width="1"/>
+  </g>
+</svg>
