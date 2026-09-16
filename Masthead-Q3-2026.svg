@@ -1,0 +1,43 @@
+<svg width="1360" height="420" viewBox="0 0 1360 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003B49"/>
+      <stop offset="100%" stop-color="#021E26"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00BCFF"/>
+      <stop offset="100%" stop-color="#10857F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1360" height="420" fill="url(#bg)"/>
+  <g opacity="0.9">
+    <path d="M100 40 C180 100 180 200 100 260 C20 320 20 390 100 420" stroke="#00BCFF" stroke-width="8" fill="none"/>
+    <path d="M180 40 C100 100 100 200 180 260 C260 320 260 390 180 420" stroke="#00BCFF" stroke-width="8" fill="none"/>
+    <line x1="115" y1="80" x2="165" y2="80" stroke="#7DE8FF"/>
+    <line x1="105" y1="140" x2="175" y2="140" stroke="#7DE8FF"/>
+    <line x1="115" y1="200" x2="165" y2="200" stroke="#7DE8FF"/>
+    <line x1="105" y1="260" x2="175" y2="260" stroke="#7DE8FF"/>
+    <line x1="115" y1="320" x2="165" y2="320" stroke="#7DE8FF"/>
+  </g>
+  <g opacity="0.6">
+    <line x1="300" y1="170" x2="430" y2="120" stroke="#00BCFF"/>
+    <line x1="430" y1="120" x2="520" y2="210" stroke="#00BCFF"/>
+    <line x1="520" y1="210" x2="430" y2="320" stroke="#00BCFF"/>
+    <line x1="430" y1="320" x2="300" y2="170" stroke="#00BCFF"/>
+    <circle cx="300" cy="170" r="6" fill="#00BCFF"/>
+    <circle cx="430" cy="120" r="6" fill="#00BCFF"/>
+    <circle cx="520" cy="210" r="6" fill="#00BCFF"/>
+    <circle cx="430" cy="320" r="6" fill="#00BCFF"/>
+  </g>
+  <g opacity="0.4">
+    <circle cx="1320" cy="110" r="10" fill="#FFFFFF"/>
+    <line x1="1320" y1="20" x2="1320" y2="200" stroke="#00BCFF"/>
+    <line x1="1230" y1="110" x2="1360" y2="110" stroke="#00BCFF"/>
+  </g>
+  <text x="700" y="140" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">DATA SCIENCE &amp; AI</text>
+  <text x="700" y="200" fill="#00BCFF" font-family="Arial, Helvetica, sans-serif" font-size="30" font-style="italic">Accelerating the journey</text>
+  <text x="700" y="240" fill="#00BCFF" font-family="Arial, Helvetica, sans-serif" font-size="30" font-style="italic">from molecule to medicine</text>
+  <text x="700" y="305" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="24">Patients first.</text>
+  <text x="700" y="340" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="24">Drug hunters empowered.</text>
+  <text x="700" y="375" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="24">Data and AI accelerating discovery.</text>
+</svg>
